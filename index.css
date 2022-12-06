@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+  background-color: white;
+}
+#navbar>div:nth-child(2){
+    display: flex;
+    margin-right: 20px;
+    /* margin-top: 5px; */
+    background-color: white;
+}
+#navbar>div:nth-child(2)>p{
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+#navbar>div:nth-child(2)>p:hover{
+    background-color: blue;
+}
+#navbar>div:nth-child(1)>h1{
+    background-color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+#navbar>div:nth-child(1)>h1>span{
+    color: rgb(20, 49, 239);
+    background-color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+
+/* Home Section */
+#home{
+    height: 530px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#home>h1{
+    width: 50%;
+}
