@@ -37,13 +37,52 @@
 
 /* Home Section */
 #home{
-    height: 530px;
+    /* height: 530px; */
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 37%;
+   margin-top: 40px;
+}
+#home>h2{
   
+    margin-top: 20px;
+    margin-left: 45px;
 }
-#home>h1{
-    width: 50%;
+
+/* Aboutme */
+#about{
+    margin-top: 50px;
 }
+#about>div{
+   display: flex;
+}
+#about>div>img{
+    height: 300px;
+    width: 30%;
+    margin-left: 30px;
+}
+#about>div>p{
+   color: white;
+   margin-left: 30px;
+}
+
+
+/* skills */
+#skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 10px;
+   
+}
+#skills>div{
+    border: 1px solid red;
+}
+#skills>div>img{
+    height: 150px;
+    /* margin: 20px; */
+    margin: 50px;
+    /* width: 20%; */
+}
+
