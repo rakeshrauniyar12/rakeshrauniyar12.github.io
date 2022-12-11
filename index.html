@@ -11,12 +11,12 @@
   <div id="navbar">
     <div><h1><span>Abhinandan</span>Rauniyar</h1></div>
     <div>
-      <p>Home</p>
-      <p>Skills</p>
-      <p>Project</p>
-      <p>Resume</p>
-      <p>Contact Me</p>
-      <p>About Me</p>
+      <p><a href="#home">Home</a></p>
+      <p><a href="#skills">Skills</a></p>
+      <p><a href="#project">Project</a></p>
+      <p><a href="#github">Github</a></p>
+      <p><a href="#about">About Me</a></p>
+      <p><a href="#contact">Contact Me</a></p>
     </div>
   </div>
   <div id="home">
@@ -26,34 +26,54 @@
 
   <!-- Aboutme -->
   <div id="about">
-    <h1 style="color: white;margin-left:45%;margin-bottom:30px;text-decoration:underline">About me</h1>
+    <h1 style="color: white;margin-left:45%;margin-bottom:30px;">About me</h1>
+    <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
     <div>
+      
       <img src="./IMG_20221014_102245.jpg" alt="">
-      <p>A Dedicated Java Backend Developer who is always passionate about learning new things.</p>      
+      <div>
+        <p>A dedicated Java-Backend Developer who is always
+          passionate about new things. Looking forward to developing
+          products that help in making people live better and
+          becoming an integral part of an organization that helps me
+          grow.
+        </p>   
+          <a href="./Abhinandan_Rauniyar_Resume.pdf" download>Resume</a> 
+      </div>
+        
+    </div>
+    <div>
+        
     </div>
   </div>
 
   <!-- Skills -->
    <div>
-    <h1 style="color: white;margin-left:45%;margin-bottom:30px;margin-top:30px;text-decoration:underline">Skills</h1>
+    <h1 style="color: white;margin-left:47%;margin-bottom:30px;margin-top:30px;text-decoration:underline;text-decoration: none;">Skills</h1>
    </div>
-  <div id="skills">
+   <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
+   <div id="upskill">
     <div>
-      <img src="./assets/html.png" alt="">
-    </div>
-    <div><img src="./assets/css.png" alt=""></div>
-    <div><img src="./assets/javascript.png" alt=""></div>
-    <div><img src="./assets/java.png" alt=""></div>
-    <div>
-      <img src="./assets/jdbc.png" alt="">
-    </div>
-    <div><img src="./assets/mysql.png" alt=""></div>
-    <div><img src="./assets/api.png" alt=""></div>
-    <div><img src="./assets/hibernate.png" alt=""></div>
-     
-      
-  
-    <div></div>
+      <div>
+        <input type="text" placeholder="Add Technical Skills" id="tech">
+        <button id="btntech">Add</button>
+      </div>
+      <div>
+        <input type="text" placeholder="Add Soft Skills" id="soft">
+        <button id="softbtn" onclick="save1()">Add</button>
+      </div>
   </div>
+    <div>
+      <div id="Hard_skill">
+        <p onclick="showTech()">Technical Skill</p>
+      </div>
+      <div id="soft_skill">
+      <p onclick="showSoft()">Soft Skill</p>
+      </div>
+    </div>
+   
+   </div>
+  <div id="skills"></div>
 </body>
 </html>
+<script src="./index.js"></script>
