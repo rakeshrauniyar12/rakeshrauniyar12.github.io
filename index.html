@@ -28,21 +28,18 @@
   <div id="about">
     <h1 style="color: white;margin-left:45%;margin-bottom:30px;">About me</h1>
     <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
-    <div>
-      
-      <img src="./IMG_20221014_102245.jpg" alt="">
+    <div id="ab">
+      <div> <img src="./IMG_20221014_102245.jpg" alt=""></div>
+     
       <div>
         <p>A dedicated Java-Backend Developer who is always
           passionate about new things. Looking forward to developing
           products that help in making people live better and
           becoming an integral part of an organization that helps me
-          grow.
+          grow.Through 1200+ hours of practice and many personal projects, I honed my skills as a programmer, developing a certain versatility in using technologies and coding languages. As I am a self-learner, I can easily adapt to new things and am always ready to take on challenges.
         </p>   
-          <a href="./Abhinandan_Rauniyar_Resume.pdf" download>Resume</a> 
+          <button><a href="./Abhinandan_Rauniyar_Resume.pdf" download>Resume</a></button> 
       </div>
-        
-    </div>
-    <div>
         
     </div>
   </div>
@@ -65,15 +62,33 @@
   </div>
     <div>
       <div id="Hard_skill">
-        <p onclick="showTech()">Technical Skill</p>
+        <p id="showtech">Technical Skill</p>
       </div>
       <div id="soft_skill">
-      <p onclick="showSoft()">Soft Skill</p>
+      <p id="showsoft">Soft Skill</p>
       </div>
     </div>
    
    </div>
   <div id="skills"></div>
+
+  <!-- Project Section -->
+  <div>
+    <h1 style="color: white;margin-left:47%;margin-bottom:30px;margin-top:30px;text-decoration:underline;text-decoration: none;">Projects</h1>
+   </div>
+   <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
+   <div id="inputbox">
+    <input type="url" placeholder="Image Url" id="image">
+    <input type="text" placeholder="Enter Website Name" id="name">
+    <input type="text" placeholder="Type" id="type">
+    <input type="text" placeholder="Responsibilities" id="res">
+    <input type="text" placeholder="Tech-Stack" id="stack">
+    <input type="text" placeholder="Description" id="desc">
+    <button id="submit" onclick="showProject()">Submit</button>
+   </div>
+  <div id="project">
+
+  </div>
 </body>
 </html>
 <script src="./index.js"></script>
