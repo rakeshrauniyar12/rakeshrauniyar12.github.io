@@ -12,10 +12,10 @@
     <div><h1><span>Abhinandan</span>Rauniyar</h1></div>
     <div>
       <p><a href="#home">Home</a></p>
-      <p><a href="#skills">Skills</a></p>
-      <p><a href="#project">Project</a></p>
-      <p><a href="#github">Github</a></p>
       <p><a href="#about">About Me</a></p>
+      <p><a href="#tech">Skills</a></p>
+      <p><a href="#project">Project</a></p>
+      <p><a href="./Abhinandan_Rauniyar_Resume.pdf" download>Resume</a></p>
       <p><a href="#contact">Contact Me</a></p>
     </div>
   </div>
@@ -38,7 +38,7 @@
           becoming an integral part of an organization that helps me
           grow.Through 1200+ hours of practice and many personal projects, I honed my skills as a programmer, developing a certain versatility in using technologies and coding languages. As I am a self-learner, I can easily adapt to new things and am always ready to take on challenges.
         </p>   
-          <button><a href="./Abhinandan_Rauniyar_Resume.pdf" download>Resume</a></button> 
+          <button id="resume"><a href="./Abhinandan_Rauniyar_Resume.pdf" download>Resume</a></button> 
       </div>
         
     </div>
@@ -49,35 +49,37 @@
     <h1 style="color: white;margin-left:47%;margin-bottom:30px;margin-top:30px;text-decoration:underline;text-decoration: none;">Skills</h1>
    </div>
    <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
-   <div id="upskill">
-    <div>
-      <div>
-        <input type="text" placeholder="Add Technical Skills" id="tech">
-        <button id="btntech">Add</button>
-      </div>
-      <div>
-        <input type="text" placeholder="Add Soft Skills" id="soft">
-        <button id="softbtn" onclick="save1()">Add</button>
-      </div>
-  </div>
-    <div>
-      <div id="Hard_skill">
-        <p id="showtech">Technical Skill</p>
-      </div>
-      <div id="soft_skill">
-      <p id="showsoft">Soft Skill</p>
-      </div>
+    <div id="tech">
+      <button>Tech-Stack</button>
     </div>
-   
-   </div>
-  <div id="skills"></div>
-
+  <div id="skills">
+    <div><img src="https://tse3.mm.bing.net/th?id=OIP.QlPemi-BGIRmzOSUF3vLkwHaHa&pid=Api&P=0" alt=""> </div>
+      <div><img src="https://tse2.mm.bing.net/th?id=OIP.JETD1JT_ZtxT5kBHYCuf7QEgDY&pid=Api&P=0" alt=""></div>
+      <div><img src="https://tse3.mm.bing.net/th?id=OIP.g-NoHKGXHdzX4QuvESVkfgHaHB&pid=Api&P=0" alt=""></div>
+     <div><img src="https://tse2.mm.bing.net/th?id=OIP._Lm_T3scKhVEVFC54gcRxwHaE8&pid=Api&P=0" alt=""></div>
+     <div> <img src="https://tse4.mm.bing.net/th?id=OIP.4f2ZFbp_VXQcFOJZMfVypQAAAA&pid=Api&P=0https://tse4.mm.bing.net/th?id=OIP.4f2ZFbp_VXQcFOJZMfVypQAAAA&pid=Api&P=0" alt=""></div>
+   <div><img src="https://tse3.mm.bing.net/th?id=OIP.QGfW6BSeRs-O6ygR9QitdgHaHa&pid=Api&P=0" alt=""> </div>
+    <div><img src="https://tse4.mm.bing.net/th?id=OIP.TnaZy2LN9luR1xwoU_whTQHaHQ&pid=Api&P=0" alt=""></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.IPz88kwcNAUTYPFWPPoIuAAAAA&pid=Api&P=0" alt=""></div>
+    <div><img src="https://tse2.mm.bing.net/th?id=OIP.Vev4j8vij-UgWbeUVULUrAHaD-&pid=Api&P=0" alt=""></div>
+    <div><img src="https://tse4.mm.bing.net/th?id=OIP.bKFiQ-857gLwEGLl-6VRFgHaFJ&pid=Api&P=0" alt=""></div>
+  </div>
+  <div id="tech">
+    <button>Soft-Skills</button>
+  </div>
+<div id="skills">
+  <div><img src="https://tse2.mm.bing.net/th?id=OIP.jTTNepgMwey42PJBPE3Z8AHaHa&pid=Api&P=0" alt=""> </div>
+    <div><img src="https://tse2.mm.bing.net/th?id=OIP.J_OGiFpkan2cO_tXStG-TwHaG0&pid=Api&P=0" alt=""></div>
+    <div><img src="https://tse2.mm.bing.net/th?id=OIP.aye0mQLWE6zsYWeSTAObAwHaEo&pid=Api&P=0" alt=""></div>
+   <div><img src="https://tse2.mm.bing.net/th?id=OIP.86ogIkp-b9EL99D9srg3EwHaE8&pid=Api&P=0" alt=""></div>
+   <div> <img src="https://tse4.mm.bing.net/th?id=OIP.I7EV7wQZP60z_XaiEN0dcwHaDt&pid=Api&P=0" alt=""></div>
+</div>
   <!-- Project Section -->
   <div>
     <h1 style="color: white;margin-left:47%;margin-bottom:30px;margin-top:30px;text-decoration:underline;text-decoration: none;">Projects</h1>
    </div>
    <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
-   <div id="inputbox">
+   <!-- <div id="inputbox">
     <input type="url" placeholder="Image Url" id="image">
     <input type="text" placeholder="Enter Website Name" id="name">
     <input type="text" placeholder="Type" id="type">
@@ -85,9 +87,17 @@
     <input type="text" placeholder="Tech-Stack" id="stack">
     <input type="text" placeholder="Description" id="desc">
     <button id="submit" onclick="showProject()">Submit</button>
-   </div>
+   </div> -->
   <div id="project">
+      <!-- <div>
+        <img src="./Screenshot (128).png" alt="">
+      </div>
+      <div>
+         
 
+
+
+      </div> -->
   </div>
 </body>
 </html>
