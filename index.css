@@ -126,6 +126,53 @@ body{
 }
 
 /* Project */
+#project{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 5%;
+    margin: 20px;
+}
+#project>div{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(12, 109, 109);
+    padding: 20px;
+    /* width: 50%; */
+}
+#project>div>div:nth-child(1)>img{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 60%;
+    width: 100%;
+}
+#project>div>div:nth-child(2)>h1{
+    padding: 10px;
+}
+#project>div>div:nth-child(2)>p{
+    padding: 5px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+#btn>button{
+    width: 60%;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#btn>button>a{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+#btn>button:hover{
+   background-color: rgb(15, 139, 216);
+}
 /* #inputbox{
     margin: 15px;
 }
@@ -149,4 +196,10 @@ body{
 #project>div:nth-child(2)>p{
     color: white;
    
+} */
+
+
+/* Github */
+/* #github{
+    display: ;
 } */
