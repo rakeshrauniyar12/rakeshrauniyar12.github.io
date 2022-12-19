@@ -7,6 +7,10 @@ body{
     background-color: black;
 }
 #navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* right: 50; */
     display: flex;
     justify-content: space-between;
      background-color: white;
@@ -45,7 +49,7 @@ body{
     /* height: 530px; */
     color: white;
     margin-left: 37%;
-   margin-top: 40px;
+   margin-top: 80px;
 }
 #home>h2{
   
@@ -130,8 +134,9 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
-    gap: 5%;
+    gap: 2%;
     margin: 20px;
+    margin-bottom: 20px;
 }
 #project>div{
     border: 1px solid white;
@@ -200,6 +205,29 @@ body{
 
 
 /* Github */
-/* #github{
-    display: ;
-} */
+.calendar{
+  color: rgb(25, 128, 175);
+  font-size: 30px;
+  width:80%;
+}
+#image{
+    margin-left: 4%;
+}
+/* contact-section */
+#two{
+    display: flex;
+    gap: 30;
+    justify-content: center;
+    align-items: center;
+}
+#two>a>img{
+    height: 30px;
+    padding: 20px;
+}
+
+#footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

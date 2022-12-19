@@ -1,3 +1,4 @@
+
 // let arrTech=JSON.parse(localStorage.getItem("skillsData"))||[];
 // let arrSoft=JSON.parse(localStorage.getItem("skillsData1"))||[];
 // document.querySelector("#btntech").addEventListener("click",()=>{
