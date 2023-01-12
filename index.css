@@ -214,6 +214,14 @@ body{
     margin-left: 4%;
 }
 /* contact-section */
+/* style="color: white;margin-left:45%;margin-bottom:30px;margin-top:70px;text-decoration:underline;text-decoration: none;" */
+#l1{
+    color:white;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    text-decoration: none;
+}
 #two{
     display: flex;
     gap: 30;
@@ -231,3 +239,23 @@ body{
     justify-content: center;
     align-items: center;
 }
+@media only screen and (min-width: 220px) and (max-width: 480px){
+    #project{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        gap: 2%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+} 
+@media only screen and (min-width: 220px) and (max-width: 480px){
+    #two>a>img{
+        height: 23px;
+        padding: 15px;
+    }
+    #l1{
+        margin-left: -20px;
+        text-align: center;
+    }
+} 
