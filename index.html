@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhinandan_Rauniyar_Portfolio</title>
-  <link rel="stylesheet" href="./index.css">
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinandan_Rauniyar_Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-  <div id="navbar">
-    <div><h1><span>Abhinandan</span>Rauniyar</h1></div>
-    <div>
-      <p><a href="#home">Home</a></p>
-      <p><a href="#about">About Me</a></p>
-      <p><a href="#skk">Skills</a></p>
-      <p><a href="#project">Project</a></p>
-      <p><a href="https://drive.google.com/file/d/14UTILgj6YSPGzUiWqF7jxUNC8v8ufFFm/view?usp=sharing" target="_blank">Resume</a></p>
-      <p><a href="#contact">Contact Me</a></p>
+    <div id="navbar">
+        <nav>
+            <div id="logo"><h2><span>Abhinandan</span> Rauniyar</h2></div>
+            <ul id="sidemenu">
+                 <li><a href="#home_">Home</a></li>
+                 <li><a href="#about_">About</a></li>
+                 <li><a href="#skill_">Skills</a></li>
+                 <li><a href="#project_">Projects</a></li>
+                 <li> <a
+                  href="https://drive.google.com/file/d/14UTILgj6YSPGzUiWqF7jxUNC8v8ufFFm/view?usp=sharing"
+                  target="_blank"
+                  >Resume</a
+                ></li>
+                 <li><a href="#contact">Contact</a></li>
+                 <i id="white" class="fa fa-solid fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i id="white2" class="fa fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
     </div>
-  </div>
-  <div id="home">
-   <h1>Hi, I am Abhinandan Rauniyar</h1>
-      <h2>Java Backend Developer</h2>  
-  </div>
 
-  <!-- Aboutme -->
-  <div id="about">
-    <h1 style="color: white;margin-left:45%;margin-bottom:30px;">About me</h1>
-    <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
-    <div id="ab">
-      <div> <img style="object-fit:contain;" src="./IMG_20230105_125034.jpg" alt=""></div>
-     
-      <div>
-        <p>A dedicated Java-Backend Developer who is always
-          passionate about new things. Looking forward to developing
-          products that help in making people live better and
-          becoming an integral part of an organization that helps me
-          grow.Through 1200+ hours of practice and many personal projects, I honed my skills as a programmer, developing a certain versatility in using technologies and coding languages. As I am a self-learner, I can easily adapt to new things and am always ready to take on challenges.
-        </p>   
-          <button id="resume"><a href="./Abhinandan_Rauniyar_Resume.pdf" download>Resume</a></button> 
-      </div>
+    <div id="home_" ></div>
+    <div id="home">
+        <h1>Hi, I am Abhinandan Rauniyar</h1>
+        <h2>I'm a Java Backend Developer.</h2>
+    </div>
+    <div id="about_" ></div>
+    <div id="about">
+        <h1>About Me</h1>
+        <div id="about_in">
+            <div id="photo">
+                <img src="./IMG_20230105_125034.jpg">
+            </div>
+            <div id="info">
+                <h1>Abhinandan Rauniyar</h1>
+                <p>A dedicated Java-Backend Developer who is always passionate about new things. Looking forward to developing products that help in making people live better and becoming an integral part of an organization that helps me grow.Through 1200+ hours of practice and many personal projects, I honed my skills as a programmer, developing a certain versatility in using technologies and coding languages. As I am a self-learner, I can easily adapt to new things and am always ready to take on challenges.<p>
+                <div id="resume_btn">
+                <a id="downbtn" href="./Abhinandan_Rauniyar_Resume.pdf" download > Resume</i></a>
+                </div>
+            </div>
+        </div>
         
     </div>
-  </div>
+    <div id="skill_" ></div>
 
-  <!-- Skills -->
-   <div id="skk">
-    <h1 style="color: white;margin-left:47%;margin-bottom:30px;margin-top:30px;text-decoration:underline;text-decoration: none;">Skills</h1>
-   </div>
-   <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
+    <!-- ------------------------------- -->
+    <div id="skills_h1"><h1>Skills</h1></div>
+<div id="skill_main">
     <div id="tech">
       <button>Tech-Stack</button>
     </div>
@@ -89,21 +92,11 @@
    <div><img src="https://tse2.mm.bing.net/th?id=OIP.86ogIkp-b9EL99D9srg3EwHaE8&pid=Api&P=0" alt=""></div>
    <div> <img src="https://tse4.mm.bing.net/th?id=OIP.I7EV7wQZP60z_XaiEN0dcwHaDt&pid=Api&P=0" alt=""></div>
 </div>
-  <!-- Project Section -->
-  <div>
-    <h1 style="color: white;margin-left:47%;margin-bottom:30px;margin-top:30px;text-decoration:underline;text-decoration: none;">Projects</h1>
-   </div>
-   <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
-   <!-- <div id="inputbox">
-    <input type="url" placeholder="Image Url" id="image">
-    <input type="text" placeholder="Enter Website Name" id="name">
-    <input type="text" placeholder="Type" id="type">
-    <input type="text" placeholder="Responsibilities" id="res">
-    <input type="text" placeholder="Tech-Stack" id="stack">
-    <input type="text" placeholder="Description" id="desc">
-    <button id="submit" onclick="showProject()">Submit</button>
-   </div> -->
-  <div id="project">
+</div>
+<!-- ---------------------------------------- -->
+    <div id="project_" ></div>
+    <div id="proj"><h1>Projects</h1></div>
+    <div id="project">
     <div>
       <div>
         <img src="./Screenshot (128).png" alt="">
@@ -172,52 +165,58 @@
   </div>
 </div>
 </div>
- <!-- Github -->
- <div style="margin-top: 20px;">
-  <h1 style="color: white;margin-left:45%;margin-bottom:30px;margin-top:70px;text-decoration:underline;text-decoration: none;">Github Statistics</h1>
- 
- <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
-  <div class="calendar"></div>
-  <div id="image">
-    <div style="display: flex;margin-left: 4%;">
-      <p style="margin: 20px;margin: left 5%;"><img align="center" src="https://github-readme-stats.vercel.app/api?username=rakeshrauniyar12&theme=react&show_icons=true&locale=en" alt="rakeshrauniyar12" /></p>
 
-      <p style="margin: 20px;margin: left 5%;"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rakeshrauniyar12&theme=react" alt="rakeshrauniyar12" /></p>
+    <div id="github0" ></div>
+    <div id="github">
+        <h1>GitHub</h1>
+        <div id="stats">
+            <img src="https://github-profile-trophy.vercel.app/?username=rakeshrauniyar12&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy" alt="">
+        </div>
+        <div id="stats_2">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=rakeshrauniyar12&" alt="rakeshrauniyar12"/>
+        </div>
+        
+        <div id="stats_3">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rakeshrauniyar12&show_icons=true&locale=en&layout=compact" alt="rakeshrauniyar12" />
+        </div>
+        <div id="mul">
+            <img src="https://github-readme-stats.vercel.app/api?username=rakeshrauniyar12&show_icons=true&locale=en" alt="rakeshrauniyar12"/>
+        </div>
+
+        <div class="calendar" >
+  
+            Loading the data just for you.
+          </div>
+          <br><br>
+        </section>
+          <script
+          src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+          </script>
+          
+          <link
+          rel="stylesheet"
+          href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+          />
+          <script>
+           
+            GitHubCalendar(".calendar", "rakeshrauniyar12", { responsive: true });
+          
+          </script> 
+
     </div>
-    <div style="margin-left: 7%;">
-      <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=rakeshrauniyar12&theme=react&show_icons=true&locale=en&layout=compact" alt="rakeshrauniyar12" height="400px" width="800px"/></p>
-    </div>
-</div>
-</div>
-<!-- Contact Section -->
-<h1 id="l1">Contact Me</h1>
- <hr style="background-color: white;margin-bottom: 20px;margin-top: -20px;">
+<!-- ------------------------------- -->
+<div id="cont_"><h1>Contact</h1></div>
 <div id="contact">
-   <div id="two">
-    <a style="color:white;font-size: 20px;text-decoration: none;" href="tel:+919889901020">+919889901020</a>
-    <a style="color:white;" href="https://github.com/rakeshrauniyar12" target="_blank"><img src="https://kumarnishantgunajn5803.github.io/assets/github.png"/></a>
-    <a href="https://www.hackerrank.com/abhirauniyara1"><img src="https://kumarnishantgunajn5803.github.io/assets/hackerrank.png" alt=""></a>
-    <a href="https://www.linkedin.com/in/abhinandan-rauniyar-4921a8223/"><img src="https://kumarnishantgunajn5803.github.io/assets/linkedin.png" alt=""></a>
-    <a href="mailto:rakeshrauniyara1234@gmail.com"><img src="https://tse1.mm.bing.net/th?id=OIP.DKnMNGB6q4y3Iqtnt7X5WAHaHa&pid=Api&P=0" alt=""></a>
-   </div>
+  <div id="two">
+   <a style="color:rgb(255, 255, 255);font-size: 20px;text-decoration: none;" href="tel:+919889901020">+919889901020</a>
+   <a style="color:white;" href="https://github.com/rakeshrauniyar12" target="_blank"><img src="https://kumarnishantgunajn5803.github.io/assets/github.png"/></a>
+   <a href="https://www.hackerrank.com/abhirauniyara1"><img src="https://kumarnishantgunajn5803.github.io/assets/hackerrank.png" alt=""></a>
+   <a href="https://www.linkedin.com/in/abhinandan-rauniyar-4921a8223/"><img src="https://kumarnishantgunajn5803.github.io/assets/linkedin.png" alt=""></a>
+   <a href="mailto:rakeshrauniyara1234@gmail.com"><img src="https://tse1.mm.bing.net/th?id=OIP.DKnMNGB6q4y3Iqtnt7X5WAHaHa&pid=Api&P=0" alt=""></a>
+  </div>
 </div>
-<div id="footer">
-  <p style="font-size: 20px;margin: 10px;">Designed & Created By: Abhinandan Rauniyar</p>
-</div>
+<div id="copyright"><p>Designed & Created By: Abhinandan Rauniyar</p></div>
+   
 </body>
 </html>
 <script src="./index.js"></script>
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-<script>
-  GitHubCalendar(".calendar", "rakeshrauniyar12");
-  GitHubCalendar(".calendar", "rakeshrauniyar12", { responsive: true });
-  GitHubCalendar(".calendar", "rakeshrauniyar12", {
-     proxy (username) {
-       return fetch(`https://your-proxy.com/github?user=${rakeshrauniyar12}`)
-     }
-  }).then(r => r.text())
-</script>
-
-
