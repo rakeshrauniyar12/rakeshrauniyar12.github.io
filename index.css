@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
+   
 } 
+body{
+    background-color: aqua;
+}
 #navbar{
     padding: 10px 4%;
     height: 70px;
@@ -24,7 +28,7 @@ nav{
     margin-top: 10px;
 }
 #logo>h2>span{
-    color: rgb(12, 109, 109);
+    color: rgb(10, 158, 199);
 }
 nav ul li{
 display: inline-block;
@@ -47,6 +51,7 @@ nav ul li a:hover{
 #home_{
     height: 50px;
     background-color: rgb(44, 44, 44);
+   
 }
 
                             /* ======================Navbar end here========================== */
@@ -459,11 +464,20 @@ nav ul li a:hover{
         margin-bottom: 20px; */
         padding-bottom: 150px;
     }
+    #skills{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        padding: 20px;
+        column-gap: 30px;
+    }
 } 
 @media only screen and (min-width: 220px) and (max-width: 880px){
     #two>a>img{
-        height: 23px;
-        padding: 15px;
+        height: 43px;
+        padding: 9px;
+        width: 40px;
     }
     #l1{
         margin-left: -20px;
