@@ -155,7 +155,7 @@ nav ul li a:hover{
 }
 #tech>button{
     border-radius: 10px;
-    background-color: rgb(44, 44, 44);
+    background-color: white;
     color: black;
     font-weight: bolder;
     padding: 12px;
@@ -346,6 +346,13 @@ nav ul li a:hover{
     font-size: 25px;
     display: none;
     margin-top: 10px;
+}
+@media only screen and (min-width :880px){
+    #stat{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
 }
 
 /* ----------------------------------------------------------------------------------- */
