@@ -1,490 +1,491 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins",sans-serif;
-   
-} 
-#navbar{
-    padding: 10px 4%;
-    height: 70px;
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    background-color: rgb(44, 44, 44);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+#navbar {
+  padding: 10px 4%;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color: rgb(44, 44, 44);
 }
-#logo{
-    font-size: 20px;
-    color: white;
-    margin-top: 10px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-#logo>h2>span{
-    color: rgb(10, 158, 199);
+#logo {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
 }
-nav ul li{
-display: inline-block;
-list-style: none;
-margin: 10px 20px;
+#logo > h2 > span {
+  color: rgb(10, 158, 199);
 }
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
 }
-nav ul li a:hover{
-    color: rgb(12, 109, 109);
-    cursor: pointer;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
-#project_{
-    height: 50px;
-    background-color: rgb(44, 44, 44);
+nav ul li a:hover {
+  color: rgb(12, 109, 109);
+  cursor: pointer;
 }
-#home_{
-    height: 50px;
-    background-color: rgb(44, 44, 44);
-   
+#project_ {
+  height: 50px;
+  background-color: rgb(44, 44, 44);
+}
+#home_ {
+  height: 50px;
+  background-color: rgb(44, 44, 44);
 }
 
-                            /* ======================Navbar end here========================== */
-#home{
-    width: 100%;
-    height: 300px;
-    background-color: rgb(44, 44, 44);
+/* ======================Navbar end here========================== */
+#home {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(44, 44, 44);
 }
-#home>h1{
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 20px;
-   padding-top: 80px;
-    font-size: 60px;
-    font-weight: bold;
+#home > h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  font-size: 60px;
+  font-weight: bold;
 }
-#home>h2{
-    text-align: center;
-    font-size: 30px;
-    color: #ffffff;
+#home > h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
 }
-#about_{
-    height: 55px;
-    background-color: rgb(44, 44, 44);
+#about_ {
+  height: 55px;
+  background-color: rgb(44, 44, 44);
 }
 
-                        /* ------------------------social end here----------------------------- */
-#about{
-    width: 100%;
-    height: auto;
-    background-color: rgb(44, 44, 44);
-    padding: 0 9%;
-    padding-bottom: 30px;
-    margin: auto;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+/* ------------------------social end here----------------------------- */
+#about {
+  width: 100%;
+  height: auto;
+  background-color: rgb(44, 44, 44);
+  padding: 0 9%;
+  padding-bottom: 30px;
+  margin: auto;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
-#about>h1{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 25px;
-    padding-top: 25px;
-    color: rgb(255, 255, 255);
+#about > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  color: rgb(255, 255, 255);
 }
-#about_in{
-    display: flex;
-    justify-content: space-around;
+#about_in {
+  display: flex;
+  justify-content: space-around;
 }
-#photo>img{
-    width: 310px;
-    border-radius: 5%;
-    border: 1px solid rgb(44, 44, 44);
+#photo > img {
+  width: 310px;
+  border-radius: 5%;
+  border: 1px solid rgb(44, 44, 44);
 }
-#info{
-    width: 40%;
+#info {
+  width: 40%;
 }
-#info>h1{
-    font-size: 35px;
-    color: white;
-    font-weight: lighter;
-    padding-bottom: 20px;
-    padding-top: 45px;
+#info > h1 {
+  font-size: 35px;
+  color: white;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  padding-top: 45px;
 }
-#info>p{
-    font-size: 18px;
-    color: white;
-    line-height: 25px;
-    font-weight: lighter;
-    margin-bottom: 30px;
+#info > p {
+  font-size: 18px;
+  color: white;
+  line-height: 25px;
+  font-weight: lighter;
+  margin-bottom: 30px;
 }
-#downbtn{
-    background-color: white;
-    padding: 12px 20px;
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 8px;
+#downbtn {
+  background-color: white;
+  padding: 12px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
 }
-#downbtn:hover{
-    background-color: rgb(44, 44, 44);
-    color: rgb(12, 109, 109);
-    border: 1px solid white;
+#downbtn:hover {
+  background-color: rgb(44, 44, 44);
+  color: rgb(12, 109, 109);
+  border: 1px solid white;
 }
 
 /* -------------------------------------About Me end here----------------------------------------------- */
-#skill_{
-    height: 70px;
-    background-color:  rgb(44, 44, 44);
+#skill_ {
+  height: 70px;
+  background-color: rgb(44, 44, 44);
 }
-#skills_h1{
-    background-color:  rgb(44, 44, 44);
+#skills_h1 {
+  background-color: rgb(44, 44, 44);
 }
-#skills_h1{
-    text-align: center;
-    font-size: 20px;
-    padding-top: 10px;
-    color: rgb(255, 255, 255);
+#skills_h1 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
 }
-#tech{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#tech>button{
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-    padding: 12px;
-    font-size: 20px;
-    margin-top: 20px;
-    border: 1px solid white;
-    color: rgb(12, 109, 109);
+#tech > button {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  padding: 12px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: 1px solid white;
+  color: rgb(12, 109, 109);
 }
-#skills{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: auto;
-    gap: 20px;
-    padding: 20px;
-    column-gap: 30px;
+#skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
+  column-gap: 30px;
 }
-#skill_main{
-    background-color:  rgb(44, 44, 44);
+#skill_main {
+  background-color: rgb(44, 44, 44);
 }
-#skills>div{
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+#skills > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
 }
-#skills>div>img{
-    height: 70%;
-    width: 75%;
+#skills > div > img {
+  height: 70%;
+  width: 75%;
 }
 
 /* ---------------------------------------Skills end here---------------------------------- */
-#proj{
-    background-color: rgb(44, 44, 44);
+#proj {
+  background-color: rgb(44, 44, 44);
 }
-#proj>h1{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 25px;
-    color: rgb(255, 255, 255);
-    border-top: 1px solid white;
+#proj > h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 25px;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid white;
 }
-#project{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    gap: 2%;
-    padding: 20px;
-    padding-bottom: 70px;
-    background-color: rgb(44, 44, 44);
-    border-bottom: 1px solid white;
+#project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 2%;
+  padding: 20px;
+  padding-bottom: 70px;
+  background-color: rgb(44, 44, 44);
+  border-bottom: 1px solid white;
 }
-#project>div{
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: rgb(12, 109, 109);
-    padding: 20px;
-    /* width: 50%; */
+#project > div {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgb(12, 109, 109);
+  padding: 20px;
+  /* width: 50%; */
 }
-#project>div>div:nth-child(1)>img{
-    border: 1px solid white;
-    border-radius: 10px;
-    height: 60%;
-    width: 100%;
+#project > div > div:nth-child(1) > img {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 60%;
+  width: 100%;
 }
-#project>div>div:nth-child(2)>h1{
-    padding: 10px;
+#project > div > div:nth-child(2) > h1 {
+  padding: 10px;
 }
-#project>div>div:nth-child(2)>p{
-    padding: 5px;
+#project > div > div:nth-child(2) > p {
+  padding: 5px;
 }
-#btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 20px;
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
 }
-#btn>button{
-    width: 60%;
-   padding: 10px;
-   padding-left: 20px;
-   padding-right: 20px;
+#btn > button {
+  width: 60%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-#btn>button>a{
-    text-align: center;
-    font-size: 20px;
-    text-decoration: none;
+#btn > button > a {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
 }
-#btn>button:hover{
-   background-color: rgb(15, 139, 216);
+#btn > button:hover {
+  background-color: rgb(15, 139, 216);
 }
 /* ----------------------------------------Projects end here------------------------------------ */
-#github{
-    width: 100%;
-    padding-bottom: 20px;
-    background-color: rgb(44, 44, 44);
-    border-bottom: 1px solid white;
+#github {
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: rgb(44, 44, 44);
+  border-bottom: 1px solid white;
 }
-#github>h1{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 25px;
-    color: rgb(255, 255, 255);
+#github > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: rgb(255, 255, 255);
 }
-#stats{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 50px;
+#stats {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
 }
-#stats>img{
-    width: 100%;
+#stats > img {
+  width: 100%;
 }
-#stats_2{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 50px;
+#stats_2 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
 }
-#stats_2>img{
-    width: 100%;
+#stats_2 > img {
+  width: 100%;
 }
-#stats_3{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 50px;
+#stats_3 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
 }
-#stats_3>img{
-    width: 100%;
+#stats_3 > img {
+  width: 100%;
 }
-
-#mul{
-    width: 80%;
-    margin: auto;
+#btn > a {
+  border: 1px solid white;
+  background-color: #ffffff;
+  padding-left: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 20%;
+  font-size: large;
+  text-decoration: none;
 }
-#mul>img{
-    width: 100%;
-    margin-bottom: 40px;
+#mul {
+  width: 80%;
+  margin: auto;
 }
-.calendar{
-    width: 80%;
-    color: white;
-    font-size:25px;
+#mul > img {
+  width: 100%;
+  margin-bottom: 40px;
 }
-#github0{
-    height: 80px;
-    background-color: rgb(44, 44, 44);
+.calendar {
+  width: 80%;
+  color: white;
+  font-size: 25px;
+}
+#github0 {
+  height: 80px;
+  background-color: rgb(44, 44, 44);
 }
 /* ---------------------------------------------Github end here--------------------------------------- */
-#contact{
-    width: 100%;
-    height: auto;
-    background-color:  rgb(44, 44, 44);
+#contact {
+  width: 100%;
+  height: auto;
+  background-color: rgb(44, 44, 44);
 }
-#cont_>h1{
-    text-align: center;
-    color: white;
-    background-color:  rgb(44, 44, 44);
-    padding-top: 20px;
+#cont_ > h1 {
+  text-align: center;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  padding-top: 20px;
 }
-#two{
-    width: 35%;
-    padding-top: 30px;
-    background-color: rgb(44, 44, 44);
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: auto;
+#two {
+  width: 35%;
+  padding-top: 30px;
+  background-color: rgb(44, 44, 44);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
 }
-#two>a>img{
-    width: 35px;
+#two > a > img {
+  width: 35px;
 }
-#copyright{
-    margin: auto;
-    background-color: rgb(44, 44, 44);
-    padding-top: 40px;
-    padding-bottom: 20px;
+#copyright {
+  margin: auto;
+  background-color: rgb(44, 44, 44);
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
-#copyright>p{
-    color: white;
-    text-align: center;
+#copyright > p {
+  color: white;
+  text-align: center;
 }
-#white{
-    color: white;
-    font-size: 25px;
-    display: none;
+#white {
+  color: white;
+  font-size: 25px;
+  display: none;
 }
-#white2{
-    color: white;
-    font-size: 25px;
-    display: none;
-    margin-top: 10px;
+#white2 {
+  color: white;
+  font-size: 25px;
+  display: none;
+  margin-top: 10px;
 }
-@media only screen and (min-width :880px){
-    #stat{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: auto;
-    }
+@media only screen and (min-width: 880px) {
+  #stat {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
 }
 
 /* ----------------------------------------------------------------------------------- */
 
-@media only screen and (max-width :880px){
+@media only screen and (max-width: 880px) {
+  #white {
+    display: block;
+  }
+  #white2 {
+    display: block;
+  }
 
-    #white{
-        display: block;
-    }
-    #white2{
-        display: block;
-    }
-
-    #home{
-        width: 100%;
-        /* height: 500px; */
-        /* background-color: rgb(244, 244, 244); */
-    }
-    #home>h1{
-        font-size: 45px;
-    }
-    #home>h2{
-        text-align: center;
-        font-size: 26px;
-    }
-    #about{
-        height: auto;
-        padding-bottom: 30px;
-    }
-    #about_in{
-        display: block;
-    }
-    #photo{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    #photo>img{
-        width: 310px;
-    }
-    #info{
-        width: 100%;
-    }
-    #info>h1{
-        font-size: 40px;
-        text-align: center;
-        font-weight: 550;
-    }
-    #info>p{
-        font-size: 18px;
-        line-height: 27px;
-        padding-left: 10px;
-    }
-    #resume_btn{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        margin: auto;
-    }
-    nav ul {
-        background-color:  rgb(44, 44, 44);;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    #white{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    #github{
-        height: auto;
-        padding-bottom: 50px;
-    }
-   
+  #home {
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: rgb(244, 244, 244); */
+  }
+  #home > h1 {
+    font-size: 45px;
+  }
+  #home > h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+  #about {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  #about_in {
+    display: block;
+  }
+  #photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #photo > img {
+    width: 310px;
+  }
+  #info {
+    width: 100%;
+  }
+  #info > h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 550;
+  }
+  #info > p {
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 10px;
+  }
+  #resume_btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+  }
+  nav ul {
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  #white {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  #github {
+    height: auto;
+    padding-bottom: 50px;
+  }
 }
-
 
 /* ---------------------------------------------------------------------------------------------------- */
 
-@media (min-width: 768px) and (max-width: 1024px){
-
-    #navbar{
-        width: 100%;
-    }
-    #statistic_div{
-        width: 85%;
-    }
-    nav ul li{
-        margin: 10px 10px 0 10px;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #navbar {
+    width: 100%;
+  }
+  #statistic_div {
+    width: 85%;
+  }
+  nav ul li {
+    margin: 10px 10px 0 10px;
+  }
 }
 
-
-
-@media only screen and (min-width: 220px) and (max-width: 880px){
-    #project{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: auto;
-        gap: 2%;
-        /* margin-left: 20px;
+@media only screen and (min-width: 220px) and (max-width: 880px) {
+  #project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 2%;
+    /* margin-left: 20px;
         margin-bottom: 20px; */
-        padding-bottom: 150px;
-    }
-    #skills{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: auto;
-        gap: 20px;
-        padding: 20px;
-        column-gap: 30px;
-    }
-} 
-@media only screen and (min-width: 220px) and (max-width: 880px){
-    #two>a>img{
-        height: 43px;
-        padding: 9px;
-        width: 40px;
-    }
-    #l1{
-        margin-left: -20px;
-        text-align: center;
-    }
-} 
+    padding-bottom: 150px;
+  }
+  #skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    column-gap: 30px;
+  }
+}
+@media only screen and (min-width: 220px) and (max-width: 880px) {
+  #two > a > img {
+    height: 43px;
+    padding: 9px;
+    width: 40px;
+  }
+  #l1 {
+    margin-left: -20px;
+    text-align: center;
+  }
+}
