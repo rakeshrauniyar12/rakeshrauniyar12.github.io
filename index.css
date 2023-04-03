@@ -284,10 +284,10 @@ nav ul li a:hover {
 #btn > a {
   border: 1px solid white;
   background-color: #ffffff;
-  padding-left: 20%;
+  padding-left: 18%;
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-right: 20%;
+  padding-right: 18%;
   font-size: large;
   text-decoration: none;
 }
