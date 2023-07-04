@@ -8,7 +8,7 @@ function closemenu() {
 }
 let openResume = document.getElementById("openResume");
 openResume.onclick = () => {
-  window.open("./Abhinandan_Rauniyar_Resume.pdf", "_blank");
+  window.open("./Abhinandan-Rauniyar-Resume.pdf", "_blank");
 };
 document.querySelector("#live").addEventListener("click", () => {
   window.location.href =
